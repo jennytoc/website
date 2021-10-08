@@ -1,0 +1,107 @@
+.header {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logo {
+    font-size: 24px;
+    margin-left: 65px;
+}
+
+.nav {
+    display:flex;
+    flex-direction: row;
+    margin-right: 60px;
+}
+
+.header-item {
+    padding: 10px;
+}
+
+/*First div container*/
+.container {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-evenly;
+}
+
+.img {
+    flex: 1;
+    margin: auto;
+    text-align: center;
+}
+
+.first {
+
+    text-align: left;
+    flex: 1;
+    padding: 26px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+/* For second div */
+.container-two {
+    display: flex;
+
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+}
+
+.header-two {
+    font-size: 36px;
+
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.box {
+    border: 5px solid lightskyblue;
+    border-radius: 20px;
+    height: 120px;
+    width: 50%;
+
+}
+
+.one{
+    padding: 50px;
+    text-align: center;
+}
+
+/* For third div */
+.container-three {
+    display: flex;
+    background-color: gray;
+}
+
+/* For fourth div */
+.container-four {
+    display: flex;
+    background-color: white;
+}
